@@ -1,0 +1,10 @@
+<!-- This is a single-line comment -->
+
+<!--
+  This is a multi-line comment.
+  It can span across multiple lines.
+-->
+
+<!-- You can also comment out HTML elements:
+  <p>This paragraph will not be displayed.</p>
+-->
