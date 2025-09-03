@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table, th, td {
+            border: 1px solid black; /* Adds a visible border to the table, headers, and data cells */
+            border-collapse: collapse; /* Collapses borders into a single line */
+        }
+        th, td {
+            padding: 8px; /* Adds spacing inside cells */
+            text-align: left; /* Aligns text to the left within cells */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Basic HTML Table</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1.1</td>
+                <td>Data 1.2</td>
+                <td>Data 1.3</td>
+            </tr>
+            <tr>
+                <td>Data 2.1</td>
+                <td>Data 2.2</td>
+                <td>Data 2.3</td>
+            </tr>
+            <tr>
+                <td>Data 3.1</td>
+                <td>Data 3.2</td>
+                <td>Data 3.3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Table Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
